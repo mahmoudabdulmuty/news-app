@@ -10,7 +10,7 @@
 
 This project is a simple fetching-data-app from **[News Api](https://newsapi.org/)** to get the latest Worldwide News built with React.js & Axios
 
-## **[Live Site]()**
+## **[Live Site](https://news-app-kohl-seven.vercel.app/)**
 
 ## Technologies
 
