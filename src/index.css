@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Noto Sans Arabic', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	background: #031d35;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+	html {
+		/* 9px / 16px  */
+		font-size: 56.25%;
+	}
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+	html {
+		/* 8px / 16px = 0.5 = 50% */
+		font-size: 50%;
+	}
+}

@@ -1,0 +1,51 @@
+.menubar {
+	margin-bottom: 3rem;
+}
+.menu-items {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	gap: 8rem;
+}
+.menu-link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 2rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+.menu-link:hover {
+	color: #b3bcc7d2;
+}
+
+/***********************************/
+/*     BELOW 944px (Tablets)     */
+/*******************************/
+
+@media (max-width: 59em) {
+	.menu-link {
+		font-size: 1.8rem;
+	}
+	.menu-items {
+		gap: 4rem;
+	}
+}
+
+/*****************************************/
+/*     BELOW 704px (Smaller tablets)   */
+/*************************************/
+
+@media (max-width: 44em) {
+	.menu-items {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		margin-inline: 30px;
+	}
+	.search-input {
+		width: 80%;
+	}
+	.main {
+		display: flex;
+		flex-direction: column;
+	}
+}
