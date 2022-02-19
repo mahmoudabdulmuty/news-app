@@ -1,10 +1,10 @@
 # News App
 
-- [General info](general-info)
-- [Technologies](technologies)
-- [Features](Features)
-- [Screenshot](Screenshot)
-- [Installation](Installation)
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [Installation](#installation)
 
 ## General info
 
