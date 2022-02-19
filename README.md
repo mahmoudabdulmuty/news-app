@@ -3,6 +3,7 @@
 - [General info](general-info)
 - [Technologies](technologies)
 - [Features](Features)
+- [Screenshot](Screenshot)
 - [Installation](Installation)
 
 ## General info
@@ -25,6 +26,9 @@ Project is created with
 - Search latest News by topic
 - Filter news by categories
 - See more about an article with Read More button.
+
+## Screenshot
+
 
 ## Installation & Run
 
